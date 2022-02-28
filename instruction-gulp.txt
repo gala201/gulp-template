@@ -1,0 +1,18 @@
+Cilj alata Gulp je spajanje svih (npr. js) fajlova u jedan, kao i njihovo komprimiranje, spremnih za produkciju.
+Omogućuje:
+    - prevođenje sass fajlova u css
+    - konkatenaciju css i js fajlova te njihovo komprimiranje
+    - dodavanje vendor prefiksa na neke css opcije
+    - dodavanje source mapa, koje nam omogućuju da čitanjem izbildanog (konkateniranog) css fajla vidimo gdje se koja opcija nalazi u izvornom fajlu
+    - komprimiranje i konvertiranje grafičkih datoteka (jpeg, png)
+
+Alati za automatizaciju, kao što je Gulp, imaju izvorne (source) i krajnje (distributable) foldere; najčešće se zovu "src" odnosno "dist" folderi
+
+Koraci:
+    - definirati source (src) folder, koji će sadržavati izvorne fajlove
+    - unutar source foldera kreirati foldere za stilove, skripte, slike...
+
+    - instalirati gulp u projekt: npm install -g gulp
+    - kreirati fajl gulpfile.js u rootu projekta
+
+    - unutar gulpfile-a definirati putanju do source foldera i dist foldera:
